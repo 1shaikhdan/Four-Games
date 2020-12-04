@@ -1,0 +1,9 @@
+HOW TO DEMO
+
+1. Install PHP - https://www.edureka.co/blog/how-to-install-php-on-windows/
+2. Install PostgreSQL - https://www.postgresqltutorial.com/install-postgresql/
+3. Using the instructions from the previous website, launch/set-up psql and create the tables
+as described in 'dev/schema.sql'.
+4. Update the string found in 'lib/dbconnect_string.php' with the proper psql attributes.
+5. Enter the following command: 'php -S localhost:8000'.
+6. Go to localhost:8000 on any webbrowser.
